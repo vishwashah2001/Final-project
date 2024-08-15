@@ -22,7 +22,7 @@ def run_custom_prompt(user_input, chat_history):
             model="gpt-3.5-turbo",
             messages=chat_history,
             temperature=0.7,
-            max_tokens=150
+            max_tokens=1000
         )
 
         # Append the assistant's response to chat history
